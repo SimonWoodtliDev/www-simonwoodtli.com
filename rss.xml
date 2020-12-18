@@ -12,6 +12,56 @@
 <!-- blog -->
 
 <item>
+<title>hello ...</title>
+<guid>https://simonwoodtli.com/2020.html#hello</guid>
+<pubDate>Fri, 18 Dec 2020 10:24:42 -0300</pubDate>
+<description><![CDATA[
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor orci dapibus ultrices in. Suspendisse potenti nullam ac tortor vitae purus.</p>
+]]></description>
+</item>
+
+
+<item>
+<title>yay</title>
+<guid>https://simonwoodtli.com/2020.html#yay</guid>
+<pubDate>Fri, 18 Dec 2020 09:44:01 -0300</pubDate>
+<description><![CDATA[
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor orci dapibus ultrices in. Suspendisse potenti nullam ac tortor vitae purus.</p>
+]]></description>
+</item>
+
+
+<item>
+<title>hello again</title>
+<guid>https://simonwoodtli.com/2020.html#hello-again</guid>
+<pubDate>Fri, 18 Dec 2020 09:39:16 -0300</pubDate>
+<description><![CDATA[
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+]]></description>
+</item>
+
+
+<item>
+<title>No way it sucks!</title>
+<guid>https://simonwoodtli.com/2020.html#no-way-it-sucks</guid>
+<pubDate>Fri, 18 Dec 2020 09:26:01 -0300</pubDate>
+<description><![CDATA[
+<p>you owe me! big time</p>
+]]></description>
+</item>
+
+
+<item>
+<title>Me again</title>
+<guid>https://simonwoodtli.com/2020.html#me-again</guid>
+<pubDate>Fri, 18 Dec 2020 09:18:42 -0300</pubDate>
+<description><![CDATA[
+<p>Welcome to my Blog folks</p>
+]]></description>
+</item>
+
+
+<item>
 <title>Hello World!</title>
 <guid>https://simonwoodtli.com/2020.html#hello-world</guid>
 <pubDate>Thu, 17 Dec 2020 23:13:02 -0300</pubDate>

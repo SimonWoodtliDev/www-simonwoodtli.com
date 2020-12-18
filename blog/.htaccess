@@ -1,2 +1,8 @@
 Options +Indexes
 AddDescription "Hello World!" "hello-world.html" #Thu, 17 Dec 2020 23:13:02 -0300
+AddDescription "Hello World" "hello-world.html"
+AddDescription "Me again" "me-again.html" #Fri, 18 Dec 2020 09:18:42 -0300
+AddDescription "No way it sucks!" "no-way-it-sucks.html" #Fri, 18 Dec 2020 09:26:01 -0300
+AddDescription "hello again" "hello-again.html" #Fri, 18 Dec 2020 09:39:16 -0300
+AddDescription "yay" "yay.html" #Fri, 18 Dec 2020 09:44:01 -0300
+AddDescription "hello ..." "hello.html" #Fri, 18 Dec 2020 10:24:42 -0300

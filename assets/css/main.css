@@ -123,6 +123,11 @@ body.darkmode, #sidebar {
 	display: none;
 }
 
+.fas {
+	color: grey;
+	border-bottom: none;
+}
+
 /* Type */
 
 	body, input, select, textarea {

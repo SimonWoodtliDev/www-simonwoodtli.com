@@ -104,11 +104,6 @@
 
 		// Events.
 
-			// Link Meet Me
-document.getElementById("meetme").addEventListener("click", () => {
-		document.getElementById("front").classList.toggle("hidden")
-		document.getElementById("back").classList.toggle("hidden")
-})
 
 			// Link clicks.
 				$sidebar.on('click', 'a', function(event) {
@@ -266,3 +261,27 @@ document.getElementById("meetme").addEventListener("click", () => {
 			});
 
 })(jQuery);
+
+// Link Meet Me
+document.getElementById("meetme").addEventListener("click", () => {
+		document.getElementById("front").classList.toggle("hidden")
+		document.getElementById("back").classList.toggle("hidden")
+		document.querySelector("section.hidden").classList.toggle("hidden")
+})
+
+
+
+document.getElementById("colorSwitch").addEventListener("click", () => {
+	let decision  = document.body.classList.value
+	switch(decision) {
+		case "darkmode":
+			document.body.classList.toggle("darkmode")
+			document.querySelector('#sidebar').style.background = 'white'
+			break
+		case "":
+			document.body.classList.toggle("darkmode")
+			document.querySelector('#sidebar').style.background = 'black'
+			break
+	}
+})
+

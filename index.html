@@ -1,239 +1,151 @@
-<!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>Simon Woodtli Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Simon D. Woodtli | Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body class="is-preload">
+	<body>
+    <!--header start-->
+    <header>
+      <span>simondev.xyz</span>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--header end-->
+    <!--main page start-->
+    <section class="main-wrapper wrapper">
+      <section>
+        <h1>Software Engineer, Taijiquan Teacher & Outdoor Enthusiast</h1>
+        <h2>I'm a Full-Stack Web Developer with an interest in DevOps and Linux</h2>
+      </section>
+      <section>
+        <img src="assets/images/simon.jpg" alt="portfolio picture of simon">
+      </section>
+    </section>
+    <!--main page end-->
+    <!--about-me page start-->
+    <section class="about-wrapper wrapper">
+      <h2 id="about-me">About Me</h2>
+      <p>I was interested in computers and technology from a very early age. The very first computer we had came from a friend of my mom's and was an aging machine that ran under MS-DOS. At that time I knew how to insert disks and play games like Indiana Jones. However, my dad showed me a few basic commands to navigate through the system. But for me it was just a huge playground to experiment.</p>
+      <p>A few years later, my father bought us a Windows 98 machine that we built from scratch. When we were done, it felt like magic to me because the GUI was so much easier to navigate. I soon became the IT department of family and friends to solve computer-related problems.</p>
+      <section class="iframe-wrapper">
+        <iframe src="https://www.youtube-nocookie.com/embed/mWLl-v-kB_0?start=20&end=44&loop=1&modestbranding=1&showinfo=0&rel=0&fs=0" width="560" height="315" frameborder="0"></iframe>
+        <!--<img src="assets/images/indiana.gif" alt="Indiana Jones MS-DOS Game Intro">-->
+      </section>
+    </section>
+    <!--about-me page end-->
+    <!--education page start-->
+    <section class="education-wrapper">
+      <h2 id="education">Education</h2>
+      <!-- first section start-->
+      <div class="horizontal-line line1"></div>
+      <span>X</span>
+      <section class="edu1">
+        <h4>2005-2009</h4>
+        <h3>Commercial Vocational School, Chur</h3>
+        <h3>Vocational Diploma Electrician</h3>
+      </section>
+      <!-- first section end-->
+      <!-- second section start-->
+      <div class="horizontal-line line2"></div>
+      <span class="edu-span">W</span>
+      <section class="edu2">
+        <h4>2009-2010</h4>
+        <h3>The University of Applied Sciences HTW, Chur</h3>
+        <h3>Higher Vocational Diploma</h3>
+      </section>
+      <!-- second section end-->
+      <!-- third section start-->
+      <div class="horizontal-line line3"></div>
+      <span>R</span>
+      <section class="edu3">
+        <h4>2013-2018</h4>
+        <h3>Zurich University of Applied Sciences ZHAW, Wädenswil</h3>
+        <h3>B.Sc. Natural Resource Sciences</h3>
+      </section>
+      <!-- third section end-->
+    </section>
+    <!--education page end-->
+    <!--portfolio page start-->
+    <section class="portfolio-wrapper wrapper">
+      <h2 id="porfolio">Portfolio</h2>
+      <p>My future projects will be listed here, stay tuned!</p>
+      <!--image slider start-->
+      <section class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="assets/images/work.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="assets/images/work2.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="assets/images/work.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="assets/images/work2.jpg" alt="">
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+    </section>
+    <!--portfolio page end-->
+    <!--blog page start-->
+    <section class="blog-wrapper">
+      <!--<h2 id="blog">Blog</h2>-->
+    </section>
+    <!--blog page end-->
+    <!--contact page start-->
+    <section class="contact-wrapper">
+      <!--<h2 id="contact">Contact</h2>-->
+    </section>
+    <!--contact page end-->
+    <!--footer start-->
+    <footer class="">
+      <!--<p>Copyright ©2020 All rights reserved</p>-->
+    </footer>
+    <!--footer end-->
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo">Changing the World <strong>1 line of Code</strong> at a time</a>
-									<ul class="icons">
-										<li><a id="colorSwitch" class="icon fa-moon"><span class="label">Night-Mode</span></a></li>
-										<li><a href="mailto:simonwoodtlidev@protonmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-										<li><a href="https://twitter.com/simonwoodtlidev" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="https://linkedin.com/in/simonwoodtli" class="icon brands fa-linkedin"><span class="label">Linked-In</span></a></li>
-										<li><a href="https://github.com/simonwoodtlidev" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="rss.xml" class="brands fas fa-rss"><span class="label"></span></a></li>
-									</ul>
-								</header>
-
-							<!-- Banner -->
-								<section id="banner">
-									<div id="front" class="content">
-										<header>
-											<h1>Hi, I'm Simon,<br>Your next Software Engineer</h1>
-											<p>Ready to Change The World?</p>
-										</header>
-										<ul class="actions">
-											<li><button id="meetme" class="button big">Meet
-													me</button></li>
-										</ul>
-									</div>
-									<div id="back" class="content hidden">
-										<h1>About Me</h1>
-
-										<p><span>I love answers!</span><br><br><span>I am always
-											thinking about code and this passion often leads me
-											to solve my coding problem, while I’m jogging,
-										playing guitar, watching documentaries, or cooking
-										fajitas for breakfast. I'll figure out the answer
-										then rush to my computer to see it
-										work.</span><br><br>
-										<span>My Name is Simon D. Woodtli. I'm passionate
-											about the environment and sustainability,
-											passionate about tai chi, and a passionate software
-											engineer who will do whatever it takes to find an
-											answer.</span><br><br>
-										<span>Get in touch to find the next answer together!</span>
-										<ul class="actions">
-											<li><a href="#" class="button big">Resume</a></li>
-										</ul>
-									</div>
-									<span class="image object">
-										<img src="https://github.com/SimonWoodtliDev/simondev-www/blob/master/assets/images/simon.jpg?raw=true" alt="" />
-									</span>
-								</section>
-
-							<!-- Section -->
-								<section class="hidden">
-									<header class="major">
-										<h2>Services</h2>
-									</header>
-									<div class="features">
-										<article>
-											<span class="icon fa-gem"></span>
-											<div class="content">
-												<h3>Web App Development</h3>
-												<p>Front-end and back-end web development and design, from wireframes and UI/UX design, to Full Stack Web Applications</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>UI/UX Design</h3>
-												<p>Human-centered approach to all design decisions so that products feel custom built for the target audience and is easy-to-navigate</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-paper-plane"></span>
-											<div class="content">
-												<h3>Responsive Design</h3>
-												<p>Built to look and perform beautifully on all types of devices, with a page structure that is logical and helps users (and search engines) browse efficiently</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-signal"></span>
-											<div class="content">
-												<h3>Business Strategy</h3>
-												<p>Marketing &amp; advertsing strategy that utilizes online and offline based technologies to promote your services and grow your brand</p>
-											</div>
-										</article>
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Latest Projects</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<h3>Nulla amet dolore</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>Tempus ullamcorper</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-									</div>
-								</section>
-								<!-- Section -->
-								<section>
-									<header class="major">
-                    <h2>Latest Blog Posts</h2>
-                  </header>
-									<ul>
-										<!-- blog -->
-									</ul>
-								</section>
-
-
-						</div>
-					</div>
-
-				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
-
-							<!-- Search
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>-->
-
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li><a href="2020.html">Blog</a></li>
-									</ul>
-								</nav>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>Reach out and let's start a conversation!</p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a
-												href="mailto:simonwoodtlidev@protonmail.com">SimonWoodtliDev@protonmail.com</a></li>
-										<li class="icon brands fa-twitter"><a
-												href="https://twitter.com/simonwoodtlidev"
-												>@SimonWoodtliDev</a></li>
-										<li class="icon brands fa-linkedin"><a
-												href="https://linkedin.com/in/simonwoodtli">@SimonWoodtli</a></li>
-										<li class="icon brands fa-github"><a
-												href="https://github.com/simonwoodtlidev">@SimonWoodtliDev</a></li>
-									</ul>
-								</section>
-
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; SimonWoodtliDev. All rights reserved.</p>
-								</footer>
-
-						</div>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

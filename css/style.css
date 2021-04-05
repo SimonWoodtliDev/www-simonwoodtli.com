@@ -1,0 +1,401 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/* 1rem = 10px */
+html {
+  font-size: 62.5%;
+}
+
+/******************************************
+/* BASIC STYLES
+/*******************************************/
+
+body {
+  background: #24252f;
+  /*background: linear-gradient(-90deg, #24252F 65%, #5E617A 95%);*/
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font: 400 1.6em/2.2em "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 4.4rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3.4rem;
+  line-height: 4.4rem;
+}
+
+h3 {
+  font-size: 2.1rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+
+
+.wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-column;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+
+
+/******************************************
+/* HEADER
+/*******************************************/
+
+header {
+  line-height: 8rem;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  display: flex;
+}
+
+header ul {
+  flex: 1;
+}
+
+header a {
+  text-decoration:none;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0 0.8rem;
+}
+
+nav li:last-child {
+  margin-right: 5rem;
+}
+
+header span {
+  font-size: 3rem;
+  margin-left: 10rem;
+  text-transform: uppercase;
+  flex: 1;
+}
+
+header li {
+  display: inline-block;
+}
+
+/******************************************
+/* MAIN
+/*******************************************/
+
+.main-wrapper {
+  height: 67.7rem;
+}
+
+
+.main-wrapper h1 {
+  margin-top: 13.5rem;
+}
+
+.main-wrapper h2 {
+  margin-top: 14.5rem;
+
+}
+
+.main-wrapper section:first-child {
+  height: 32rem;
+  background-image: linear-gradient(90deg, rgba(33, 28, 28, 0.1), rgba(33, 28, 28, 0.3)), url("../assets/images/terminal.jpg");
+}
+
+.main-wrapper section:last-child {
+  width: 100%;
+}
+
+.main-wrapper img {
+  height: 17%;
+  margin-top: 10rem;
+  max-width: 100%;
+  border-radius: 50%;
+  border: 0.5rem solid #9799a7;
+}
+
+
+/******************************************
+/* ABOUT ME
+/*******************************************/
+
+.about-wrapper {
+  background: #6dbec5;
+  height: 73.8rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-wrapper h2 {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.about-wrapper p {
+  padding: 0 10rem;
+}
+
+
+.iframe-wrapper {
+}
+
+.iframe-wrapper iframe{
+  width: 120%;
+  height: 120%;
+  padding-bottom: 10rem;
+
+}
+
+/******************************************
+/* EDUCATION GRINDING THE GRID BOX!!! What a ...
+/*******************************************/
+
+.education-wrapper {
+  display: grid;
+  grid-template-columns: 4rem repeat(9, 1fr) 4rem;
+  grid-auto-rows: minmax(10px, auto);
+  height: 73.9rem;
+}
+
+.education-wrapper span {
+  background: #82c7cd;
+  border: 0.5rem solid #6dbec5;
+  border-top: 0.8rem;
+  text-align: center;
+  width: 6rem;
+  height: 6rem;
+  font-size: 3rem;
+  padding-top: 0.3em;
+  grid-column: 6 / 7;
+  justify-self: end;
+}
+
+.education-wrapper .edu-span {
+  justify-self: start;
+}
+
+
+.education-wrapper section {
+  border-radius: 0;
+  background: #ECE5DD;
+  padding: 1rem 2rem;
+  grid-column: 3 / span 3;
+  margin-bottom: 6rem;
+}
+
+.education-wrapper .edu1 {
+  grid-row: 3 / 4;
+}
+
+.education-wrapper .edu2 {
+  grid-column: 7 / span 3;
+}
+
+.education-wrapper .edu3 {
+  grid-row: 7 / 8;
+}
+
+.horizontal-line {
+  border: 0.2rem solid #6dbec5;
+  width: 100%;
+  justify-self: center;
+  grid-column: 3 / span 4;
+  align-self: end;
+  margin: 0;
+}
+
+.line2 {
+  grid-column: 6 / span 4;
+}
+
+
+.education-wrapper h2 {
+  margin: 5rem 0;
+  grid-column: 1 / -1;
+  justify-self: center;
+  align-self: center;
+}
+
+.education-wrapper h3 {
+  font-size: 1.7rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.education-wrapper h4 {
+  font-size: 1.3rem;
+  margin: 0;
+  color: black;
+}
+
+
+
+/******************************************
+/* PORTFOLIO
+ *******************************************/
+.portfolio-wrapper {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  align-items: center;
+  background: #23E3C9;
+}
+
+.portfolio-wrapper h2 {
+  margin-top: 4rem;
+  margin-bottom: 0;
+
+}
+
+.slider{
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img{
+  width: 800px;
+  height: 500px;
+}
+
+/*css for manual slide navigation*/
+
+.navigation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #6dbec5;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: #82c7cd;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: #40D3DC;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: #40D3DC;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #40D3DC;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #40D3DC;
+}
+
+/******************************************
+/* BLOG
+/*******************************************/
+
+.blog-wrapper {
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+footer {
+  /*color: #ECE5DD;*/
+}
